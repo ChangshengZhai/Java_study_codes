@@ -20,11 +20,11 @@ public class TextOperatorArray {
         System.out.println("\n复制后的长度不同的数组temp2：");
         for (int element : temp2)
             System.out.print(element+"  ");
-        System.out.println("\n浅层拷贝数组temp3（原始数组a修改a[0]=0）:");
+        System.out.println("\n 浅层拷贝数组temp3（原始数组a修改a[0]=0）:");
         a[0] = 0;
         for (int element : temp3)
             System.out.print(element+"  ");
-        System.out.println("\n输出修改后的数组a：");
+        System.out.println("\n 输出修改后的数组a：");
         for (int element : a)
             System.out.print(element+"  ");
     }
